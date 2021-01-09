@@ -1,0 +1,29 @@
+{
+  "name": "spotify-top-artists",
+  "version": "1.0.0",
+  "description": "Query the spotify web api to get lists of artists by listenership and sort into a db/frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abonnell/spotify-top-artists.git"
+  },
+  "author": "Andrew Bonnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abonnell/spotify-top-artists/issues"
+  },
+  "homepage": "https://github.com/abonnell/spotify-top-artists#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "spotify-web-api-node": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
